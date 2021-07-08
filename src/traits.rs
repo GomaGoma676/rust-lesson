@@ -23,7 +23,6 @@ trait Message {
         String::from("Message")
     }
 }
-
 struct NewsArticle {
     headline: String,
     location: String,

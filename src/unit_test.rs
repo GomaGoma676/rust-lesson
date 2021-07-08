@@ -14,7 +14,6 @@ fn double_value(a: i32) -> i32 {
 fn greeting(name: &str) -> String {
     format!("Hello {} san", name)
 }
-
 #[cfg(test)]
 mod tests {
     use super::*;

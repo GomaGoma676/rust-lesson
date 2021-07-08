@@ -1,14 +1,15 @@
+extern crate lib_demo;
 mod enums;
+mod error_handling;
 mod generics;
 mod lifetime;
 mod ownership;
 mod stack_heap;
 mod structs;
 mod traits;
-mod vars;
-extern crate lib_demo;
-mod error_handling;
 mod unit_test;
+mod vars;
+
 fn main() {
     println!("Hello, world!");
     vars::run();
